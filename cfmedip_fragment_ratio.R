@@ -39,10 +39,8 @@ fr_combo <- fr[, 1:5]      ## aggregated ratio matix without scaling for all pro
 ###############
 ## per project 
 ##############
-project_id <- c("TCGE-CFMe-AML", "TCGE-CFMe-CRC", "TCGE-CFMe-LFS", "TCGE-CFMe-HBC",
-            "TCGE-CFMe-LTX", "TCGE-CFMe-PDAC", "TCGE-CFMe-BCA", "TCGE-CFMe-HNSC",
-            "TCGE-CFMe-PRAD", "TCGE-CFMe-BRCA", "TCGE-CFMe-HPCC", "TCGE-CFMe-SCLC")
-s_info <- read.csv("/Users/yong/OneDrive - UHN/Projects/TCGE/cfEpigenomics/Resource/0_sample_meta_info/TCGE-CFMe-Only-Samples-light.csv")
+project_id <- 
+s_info <- read.csv("")
 
 fr_aggr <- data.frame()   ## aggregated data.frame after scaling per project
 
